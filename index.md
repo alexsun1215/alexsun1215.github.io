@@ -13,15 +13,22 @@ My research centers on **Medical Artificial Intelligence**, specifically investi
 
 - **[Nov. 2025]** My paper has been submitted to **CVPR 2026**.
 
-{% include publications.html %}
+## Publications
+
+(Coming soon...)
+
+），图文列表就会出现
+{% include publications.html %} 
+-->
+
+## Services
 
 {% include services.html %}
-
 
 ## Honors & Awards
 
 - (Coming soon...)
-- 
+
 ## Links
 
 - **OpenReview**: [Sun Ao's Profile](https://openreview.net/profile?id=~Sun_Ao2)
