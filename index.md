@@ -17,10 +17,6 @@ My research centers on **Medical Artificial Intelligence**, specifically investi
 
 (Coming soon...)
 
-），图文列表就会出现
-{% include publications.html %} 
--->
-
 ## Services
 
 {% include services.html %}
