@@ -19,7 +19,10 @@ My research centers on **Medical Artificial Intelligence**, specifically investi
 
 ## Services
 
-{% include services.html %}
+#### Conference Reviewers
+
+- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+- IEEE/CVF International Conference on Computer Vision (ICCV)
 
 ## Honors & Awards
 
