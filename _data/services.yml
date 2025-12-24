@@ -1,12 +1,5 @@
 main:
-  conference:
-    title: Conference Reviewers
+  - title: Conference Reviewers
     items:
-      - title: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-      - title: IEEE/CVF International Conference on Computer Vision (ICCV)
-  
-  # 如果你有期刊审稿经历，可以在下面解除注释并填写
-  # journal:
-  #   title: Journal Reviewers
-  #   items:
-  #     - title: IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+      - title: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 
+      - title: IEEE/CVF International Conference on Computer Vision (ICCV) 
