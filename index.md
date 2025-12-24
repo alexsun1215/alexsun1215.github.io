@@ -5,7 +5,7 @@ title: Sun Ao
 
 ## About Me
 
-I am a first-year Ph.D. student in the Department of Biomedical Engineering at **Tsinghua University** (THU). I am fortunate to be advised by Prof. **Jiahong Dong** and Prof. **Xiaobin Feng**.
+I am a first-year Ph.D. student in the School of Biomedical Engineering at **Tsinghua University** (THU). I am fortunate to be advised by Prof. **Jiahong Dong** and Prof. **Xiaobin Feng**.
 
 My research interests include **Medical Artificial Intelligence**, **Multimodal Learning**, and **Data-efficient AI**, with a special focus on applications in **Liver Cancer**.
 
@@ -15,7 +15,7 @@ My research interests include **Medical Artificial Intelligence**, **Multimodal 
 
 ## Publications
 
-- (Coming soon...)
+(Coming soon...)
 
 ## Services
 
@@ -24,10 +24,9 @@ My research interests include **Medical Artificial Intelligence**, **Multimodal 
 - IEEE/CVF International Conference on Computer Vision (ICCV)
 
 ## Honors & Awards
-
 - (Coming soon...)
 
 ## Links
 
-- **OpenReview**: [https://openreview.net/profile?id=~Sun_Ao2](https://openreview.net/profile?id=~Sun_Ao2)
-- **Bearblog**: [https://alexsun.bearblog.dev/](https://alexsun.bearblog.dev/)
+- **OpenReview**: [Sun Ao's Profile](https://openreview.net/profile?id=~Sun_Ao2)
+- **Bearblog**: [My Research Blog](https://alexsun.bearblog.dev/)
