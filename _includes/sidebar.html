@@ -3,7 +3,7 @@
     <div class="sidebar-about">
       {% if site.avatar %}
         <div class="author-image">
-          <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }}" class="img-fluid rounded-circle">
+          <img src="{{ site.avatar | relative_url }}" alt="{{ site.title }}" class="img-fluid rounded-circle" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
         </div>
       {% endif %}
       
@@ -12,52 +12,43 @@
       <p class="lead">
         {{ site.position }}<br>
         {{ site.affiliation }}<br>
-        <span style="font-size: 0.8em;">{{ site.email }}</span>
       </p>
+
+      <nav class="sidebar-nav">
+        <a class="sidebar-nav-item" href="mailto:{{ site.email }}">
+          <i class="fas fa-envelope ai-2x"></i>
+        </a>
+
+        {% if site.google_scholar %}
+        <a class="sidebar-nav-item" href="{{ site.google_scholar }}" target="_blank">
+          <i class="ai ai-google-scholar ai-2x"></i>
+        </a>
+        {% endif %}
+
+        {% if site.cv_link %}
+        <a class="sidebar-nav-item" href="{{ site.cv_link | relative_url }}" target="_blank">
+          <i class="ai ai-cv ai-2x"></i>
+        </a>
+        {% endif %}
+
+        {% if site.github_link %}
+        <a class="sidebar-nav-item" href="{{ site.github_link }}" target="_blank">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        {% endif %}
+
+        {% if site.openreview_link %}
+        <a class="sidebar-nav-item" href="{{ site.openreview_link }}" target="_blank" title="OpenReview">
+          <i class="ai ai-openreview ai-2x"></i>
+        </a>
+        {% endif %}
+
+        {% if site.bearblog_link %}
+        <a class="sidebar-nav-item" href="{{ site.bearblog_link }}" target="_blank" title="Blog">
+          <i class="fas fa-pen-nib fa-2x"></i>
+        </a>
+        {% endif %}
+      </nav>
     </div>
-
-    <nav class="sidebar-nav">
-      {% if site.google_scholar %}
-      <a class="sidebar-nav-item" href="{{ site.google_scholar }}" target="_blank">
-        <i class="ai ai-google-scholar ai-2x"></i>
-      </a>
-      {% endif %}
-
-      {% if site.cv_link %}
-      <a class="sidebar-nav-item" href="{{ site.cv_link | relative_url }}" target="_blank">
-        <i class="ai ai-cv ai-2x"></i>
-      </a>
-      {% endif %}
-
-      {% if site.github_link %}
-      <a class="sidebar-nav-item" href="{{ site.github_link }}" target="_blank">
-        <i class="fab fa-github fa-2x"></i>
-      </a>
-      {% endif %}
-
-      {% if site.openreview_link %}
-      <a class="sidebar-nav-item" href="{{ site.openreview_link }}" target="_blank" title="OpenReview">
-        <i class="ai ai-openreview ai-2x"></i>
-      </a>
-      {% endif %}
-
-      {% if site.bearblog_link %}
-      <a class="sidebar-nav-item" href="{{ site.bearblog_link }}" target="_blank" title="Bearblog">
-        <i class="fas fa-pen-nib fa-2x"></i>
-      </a>
-      {% endif %}
-      
-      {% if site.linkedin %}
-      <a class="sidebar-nav-item" href="{{ site.linkedin }}" target="_blank">
-        <i class="fab fa-linkedin fa-2x"></i>
-      </a>
-      {% endif %}
-
-      {% if site.twitter %}
-      <a class="sidebar-nav-item" href="{{ site.twitter }}" target="_blank">
-        <i class="fab fa-twitter fa-2x"></i>
-      </a>
-      {% endif %}
-    </nav>
   </div>
 </div>
