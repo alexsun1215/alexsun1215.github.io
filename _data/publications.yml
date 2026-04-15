@@ -1,1 +1,43 @@
+# ==============================================================================
+# Publications 数据文件
+# ------------------------------------------------------------------------------
+# 用法：把下面 main: 里的示例条目替换成你的真实论文即可。
+# 每篇论文是 main 列表下的一项（以 "- title:" 开头）。
+# 支持的字段（都是可选的，没有就留空或删掉那一行）:
+#   title            论文标题（必填）
+#   authors          作者列表，用 HTML <b>自己名字</b> 加粗，例如 "A, <b>Sun Ao</b>, B"
+#   conference       会议/期刊全名（会用斜体显示）
+#   conference_short 会议简称，显示在封面图上的小 badge（例如 CVPR 2026）
+#   image            论文配图路径，推荐放在 assets/img/publications/xxx.png
+#   pdf              PDF 链接（可以是 arXiv / 本地 assets/files/xxx.pdf）
+#   code             代码仓库链接（GitHub 等）
+#   page             项目主页链接
+#   bibtex           BibTeX 链接
+#   notes            红色备注，例如 "Oral" / "Best Paper"
+# ------------------------------------------------------------------------------
+# 当 main 为空时，整个 Publications 版块不会显示（在 _includes/publications.html
+# 里有 {% if site.data.publications %} 守卫）。要让版块出现，至少填一条。
+# ==============================================================================
 
+main: []
+
+# ------------------------------------------------------------------------------
+# 下面是一个完整示例，想添加论文时把 main: [] 改成下面这种写法即可：
+# ------------------------------------------------------------------------------
+# main:
+#   - title: "A Sample Paper Title on Medical AI"
+#     authors: "<b>Sun Ao</b>, Co-Author One, Co-Author Two"
+#     conference: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026"
+#     conference_short: "CVPR 2026"
+#     image: "./assets/img/teaser_example.png"
+#     pdf: "https://arxiv.org/abs/xxxx.xxxxx"
+#     code: "https://github.com/alexsun1215/sample-repo"
+#     page: "https://alexsun1215.github.io/sample-project/"
+#     bibtex: "./assets/files/sample.bib"
+#     notes: "Oral Presentation"
+#
+#   - title: "Another Paper"
+#     authors: "<b>Sun Ao</b>, Someone Else"
+#     conference: "Medical Image Analysis, 2026"
+#     conference_short: "MedIA"
+#     pdf: "https://example.com/paper.pdf"

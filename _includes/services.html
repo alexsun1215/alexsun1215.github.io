@@ -3,13 +3,17 @@
 
 {% for group in site.data.services.main %}
 
-<h4 style="margin:0 10px 0;">{{ group[0] }}</h4>
+<h4 style="margin:0 10px 0;">{{ group.title }}</h4>
 
 <ul style="margin:0 0 5px;">
-  {% for position in group[1] %}
-  <li><a href="{{ position.link }}">
-      <autocolor>{{ position.title }}</autocolor>
-    </a></li>
+  {% for position in group.items %}
+  <li>
+    {% if position.link %}
+    <a href="{{ position.link }}"><autocolor>{{ position.title }}</autocolor></a>
+    {% else %}
+    <autocolor>{{ position.title }}</autocolor>
+    {% endif %}
+  </li>
   {% endfor %}
 </ul>
 

@@ -13,16 +13,9 @@ My research centers on **Medical Artificial Intelligence**, specifically investi
 
 - **[Nov. 2025]** My paper has been submitted to **CVPR 2026**.
 
-## Publications
+{% include publications.html %}
 
-(Coming soon...)
-
-## Services
-
-#### Conference Reviewers
-
-- IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
-- IEEE/CVF International Conference on Computer Vision (ICCV)
+{% include services.html %}
 
 ## Honors & Awards
 
