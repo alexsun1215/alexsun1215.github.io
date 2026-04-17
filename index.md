@@ -7,7 +7,7 @@ title: Sun Ao
 
 I am a first-year Ph.D. student in the **School of Biomedical Engineering** at **Tsinghua University** (THU). I am fortunate to be advised by Prof. **Jiahong Dong** and Prof. **Xiaobin Feng**.
 
-My research centers on **Medical Artificial Intelligence**, specifically investigating **Multimodal Learning** and **Data-efficient AI**. I am dedicated to developing advanced deep learning algorithms for clinical applications in **Liver Cancer** (Hepatocellular Carcinoma).
+My research interests lie at the intersection of deep learning and clinical medicine, with an emphasis on **multimodal learning** (CT, MRI, PET, and pathology), **data-efficient AI**, and **representation learning**. I am dedicated to developing robust and generalizable algorithms that work reliably under real-world clinical constraints, with applications in diagnosis and prognosis of hepatobiliary cancers.
 
 ## News
 
