@@ -2,20 +2,20 @@
 <h2>Services</h2>
 
 {% for group in site.data.services.main %}
-
-<h4 style="margin:0 10px 0;">{{ group.title }}</h4>
-
-<ul style="margin:0 0 5px;">
-  {% for position in group.items %}
-  <li>
-    {% if position.link %}
-    <a href="{{ position.link }}"><autocolor>{{ position.title }}</autocolor></a>
-    {% else %}
-    <autocolor>{{ position.title }}</autocolor>
-    {% endif %}
-  </li>
-  {% endfor %}
-</ul>
-
+  {% if group.items.size > 0 %}
+  <h4 class="service-group-title">{{ group.title }}</h4>
+  <ul class="service-list">
+    {% for position in group.items %}
+    <li class="service-item">
+      {% if position.link %}
+        <a href="{{ position.link }}" class="service-venue"><autocolor>{{ position.title }}</autocolor></a>
+      {% else %}
+        <span class="service-venue">{{ position.title }}</span>
+      {% endif %}
+      {% if position.year %}<span class="service-year">{{ position.year }}</span>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+  {% endif %}
 {% endfor %}
 {% endif %}

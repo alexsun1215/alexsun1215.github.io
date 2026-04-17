@@ -1,5 +1,12 @@
 main:
   - title: Conference Reviewers
     items:
-      - title: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 
-      - title: IEEE/CVF International Conference on Computer Vision (ICCV) 
+      - title: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+        year: "2026"
+      - title: "IEEE/CVF International Conference on Computer Vision (ICCV)"
+        year: "2025"
+      - title: "International Conference on Machine Learning (ICML)"
+        year: "2026"
+
+  - title: Journal Reviewers
+    items: []
