@@ -17,7 +17,7 @@ My research interests lie at the intersection of deep learning and clinical medi
     <span class="news-date">Mar. 2026</span>
     <span class="news-body">
       <span class="news-tag tag-milestone">milestone</span>
-      <strong>GUIDE</strong> has officially launched its nationwide multi-center study and completed clinical trial registration.
+      <span class="news-text"><strong>GUIDE</strong> has officially launched its nationwide multi-center study and completed clinical trial registration.</span>
     </span>
   </li>
 
@@ -25,7 +25,7 @@ My research interests lie at the intersection of deep learning and clinical medi
     <span class="news-date">Feb. 2026</span>
     <span class="news-body">
       <span class="news-tag tag-talk">talk</span>
-      Gave an invited research talk at the <strong>Institute of Hepatobiliary Surgery, PLA</strong> (全军肝胆外科研究所) on data-efficient multimodal learning for rare cancers.
+      <span class="news-text">Gave an invited research talk at the <strong>Institute of Hepatobiliary Surgery, PLA</strong> (全军肝胆外科研究所) on data-efficient multimodal learning for rare cancers.</span>
     </span>
   </li>
 
@@ -33,7 +33,7 @@ My research interests lie at the intersection of deep learning and clinical medi
     <span class="news-date">Jan. 2026</span>
     <span class="news-body">
       <span class="news-tag tag-project">project</span>
-      <strong>GUIDE</strong> project officially launched — a collaborative effort between <strong>THU&nbsp;BME</strong>, <strong>Beijing Tsinghua Changgung Hospital</strong>, and <strong>Southwest Hospital (西南医院)</strong>.
+      <span class="news-text"><strong>GUIDE</strong> project officially launched — a collaborative effort between <strong>THU&nbsp;BME</strong>, <strong>Beijing Tsinghua Changgung Hospital</strong>, and <strong>Southwest Hospital (西南医院)</strong>.</span>
     </span>
   </li>
 
@@ -41,7 +41,7 @@ My research interests lie at the intersection of deep learning and clinical medi
     <span class="news-date">Nov. 2025</span>
     <span class="news-body">
       <span class="news-tag tag-paper">paper</span>
-      My paper has been submitted to <strong>CVPR 2026</strong>.
+      <span class="news-text">My paper has been submitted to <strong>CVPR 2026</strong>.</span>
     </span>
   </li>
 
@@ -49,7 +49,7 @@ My research interests lie at the intersection of deep learning and clinical medi
     <span class="news-date">Sep. 2025</span>
     <span class="news-body">
       <span class="news-tag tag-milestone">milestone</span>
-      Started my Ph.D. journey at <strong>Tsinghua University</strong>, School of Biomedical Engineering.
+      <span class="news-text">Started my Ph.D. journey at <strong>Tsinghua University</strong>, School of Biomedical Engineering.</span>
     </span>
   </li>
 

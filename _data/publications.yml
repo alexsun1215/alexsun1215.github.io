@@ -3,7 +3,7 @@
 # ------------------------------------------------------------------------------
 # 支持字段：
 #   title            论文标题（必填）
-#   authors          作者列表：本人用 <span class="pub-self">Sun Ao</span>
+#   authors          作者列表：第一作者用 <span class="pub-first">Ao Sun</span>
 #   conference       期刊/会议全名
 #   conference_short 简称 badge（显示在封面图上）
 #   image            配图路径 assets/img/publications/xxx.png
@@ -19,7 +19,7 @@
 main:
 
   - title: "Maillard reaction of food-derived peptides as a potential route to generate meat flavor compounds: A review"
-    authors: "<span class='pub-self'>Sun Ao</span>, Wei Wu, Olugbenga P. Soladoye, Rotimi E. Aluko, Kathrine H. Bak, Yongkun Fu, Yuyu Zhang"
+    authors: "<span class='pub-first'>Ao Sun</span>, <span class='pub-first'>Wei Wu</span>, Olugbenga P. Soladoye, Rotimi E. Aluko, Kathrine H. Bak, Yu Fu, Yuhao Zhang"
     conference: "Food Research International, vol. 151, 110823, 2022"
     conference_short: "FRI 2022"
     pdf: "https://doi.org/10.1016/j.foodres.2021.110823"
@@ -27,7 +27,7 @@ main:
     highlight: "Systematic review linking food peptide–sugar Maillard routes to meat aroma formation; provides a mechanistic roadmap for plant-based meat flavor engineering."
 
   - title: "The potential meat flavoring generated from Maillard reaction products of wheat gluten protein hydrolysates-xylose: Impacts of different thermal treatment temperatures on flavor"
-    authors: "<span class='pub-self'>Sun Ao</span>, Lin Chen, Wei Wu, Olugbenga P. Soladoye, Yuyu Zhang, Yongkun Fu"
+    authors: "<span class='pub-first'>Ao Sun</span>, <span class='pub-first'>Lining Chen</span>, Wei Wu, Olugbenga P. Soladoye, Yuhao Zhang, Yu Fu"
     conference: "Food Research International, vol. 165, 112512, 2023"
     conference_short: "FRI 2023"
     pdf: "https://doi.org/10.1016/j.foodres.2023.112512"

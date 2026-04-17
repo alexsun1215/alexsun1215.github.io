@@ -223,7 +223,7 @@ papertitle {
         // box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.3);
       }
 
-    #header .image.avatar {
+    header .image.avatar {
       margin: 0 0 1em 0;
       width: 8.00em;
     }
@@ -776,7 +776,7 @@ header h1 {
 header { width: 260px; }
 section { width: 820px; padding-bottom: 80px; }
 
-#header .image.avatar { width: 8.5em; margin: 0 0 1.2em 0; }
+header .image.avatar { width: 11em; margin: 0 0 1.2em 0; }
 .image.avatar img { width: 100%; padding: 0; }
 
 header h1 { font-size: 30px; margin: 14px 0 6px; }
@@ -807,7 +807,22 @@ section ul:not(.news-list):not(.service-list):not(.award-list) li {
 }
 
 .news-date { font-size: 12.5px; min-width: 100px; }
-.news-body { font-size: 16px; line-height: 1.7; }
+.news-body {
+  flex: 1;
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  column-gap: 10px;
+  align-items: baseline;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.news-tag {
+  min-width: 78px;
+  margin-right: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.news-text { min-width: 0; }
 .service-item { font-size: 15px; padding: 12px 16px; }
 .award-list li { padding: 10px 0; font-size: 15.5px; }
 
@@ -822,7 +837,7 @@ section ul:not(.news-list):not(.service-list):not(.award-list) li {
   header, section, footer { float: none; position: static; width: auto; }
   header { padding: 2.5em 0 1em; text-align: center; }
   section { padding-top: 2em; width: auto; }
-  #header .image.avatar { width: 10em; }
+  header .image.avatar { width: 10em; }
 }
 
 @media screen and (max-width: 700px) {

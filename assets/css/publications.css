@@ -114,13 +114,14 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     }
   }
   
+  .pub-first,
   .pub-self {
     font-weight: 700;
     color: #1B1A17;
     border-bottom: 2px solid #D97757;
     padding-bottom: 1px;
   }
-  @media (prefers-color-scheme: dark) { .pub-self { color: #F2EEE3; border-bottom-color: #E8916D; } }
+  @media (prefers-color-scheme: dark) { .pub-first, .pub-self { color: #F2EEE3; border-bottom-color: #E8916D; } }
   
   .pub-note-self {
     font-size: 12.5px;

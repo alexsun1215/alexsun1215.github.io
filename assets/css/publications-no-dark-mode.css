@@ -56,6 +56,21 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .publications ol.bibliography li .author > em { border-bottom: 1px solid; font-style: normal; }
 
+.pub-first,
+.pub-self {
+  font-weight: 700;
+  color: #1B1A17;
+  border-bottom: 2px solid #D97757;
+  padding-bottom: 1px;
+}
+
+.pub-note-self {
+  font-size: 12.5px;
+  color: #8A8680;
+  margin: 6px 0 18px;
+  font-style: italic;
+}
+
 .publications ol.bibliography li .links a.btn { color: #000000; border: 1px solid #000000; padding-left: 0.5rem; padding-right: 0.5rem; padding-top: 0.1rem; padding-bottom: 0.1rem; }
 
 .publications ol.bibliography li .links a.btn:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); }
