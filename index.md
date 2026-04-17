@@ -83,7 +83,7 @@ My research interests lie at the intersection of deep learning and clinical medi
   <ul class="award-list">
     <li><span class="award-year">2022</span><span class="award-text">Outstanding Undergraduate Thesis of Chongqing Municipality (重庆市优秀本科毕业论文)</span></li>
     <li><span class="award-year">2022</span><span class="award-text">Outstanding Graduate of Southwest University (西南大学优秀毕业生)</span></li>
-    <li><span class="award-year">2021</span><span class="award-text">Dean's Scholarship, Xita Honors College (西塔学院院长奖学金)</span></li>
+    <li><span class="award-year">2021</span><span class="award-text">Dean's Scholarship, Xita College (西塔学院院长奖学金)</span></li>
   </ul>
 </div>
 
