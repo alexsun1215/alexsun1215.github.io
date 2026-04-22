@@ -88,3 +88,19 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .publications ol.bibliography li div.abstract.hidden.open { border-color: var(--global-text-color); }
 
 .publications ol.bibliography li .teaser { border-radius: 8px; box-shadow: 3px 3px 6px #888; height: 123px; width: 270px; margin-top: 5px; margin-left: 5px; margin-bottom: 5px; object-fit: cover; }
+
+@media print, screen and (max-width: 480px) {
+  .publications { margin-top: 1.25rem; }
+  .pub-note-self { margin: 4px 0 14px; }
+  .publications ol.bibliography li {
+    min-height: 0;
+    margin-bottom: 1.5rem;
+  }
+  .publications ol.bibliography li:last-child { margin-bottom: 0; }
+  .publications ol.bibliography li .abbr-empty { display: none; }
+  .publications .pub-row > .col-sm-9 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .publications ol.bibliography li .links { margin-top: 0.35rem; }
+}
