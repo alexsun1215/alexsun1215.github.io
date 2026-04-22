@@ -102,5 +102,13 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+  .publications ol.bibliography li .title,
+  .publications ol.bibliography li .author,
+  .publications ol.bibliography li .periodical,
+  .publications ol.bibliography li .pub-highlight {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
   .publications ol.bibliography li .links { margin-top: 0.35rem; }
 }
