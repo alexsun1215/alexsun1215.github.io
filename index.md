@@ -14,6 +14,14 @@ My research interests lie at the intersection of deep learning and clinical medi
 <ul class="news-list">
 
   <li class="news-item">
+    <span class="news-date">May 2026</span>
+    <span class="news-body">
+      <span class="news-tag tag-paper">paper</span>
+      <span class="news-text">My paper has been submitted to <strong>npj Digital Medicine</strong>.</span>
+    </span>
+  </li>
+
+  <li class="news-item">
     <span class="news-date">Mar. 2026</span>
     <span class="news-body">
       <span class="news-tag tag-milestone">milestone</span>
